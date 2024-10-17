@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  background: #f2f2f2;
+}
+
+nav {
+  background: #f2f2f2;
+}
+
+main {
+  padding-top: 5.5rem;
+}
+
+article {
+  padding-top: 5rem;
+}
+
+/* ***HeaderArticle*** */
+.header-article {
+  width: 95%;
+  height: 55vh;
+}
+
+.header-article button:nth-child(1) {
+  cursor: default;
+  background: #d6d6d6;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.header-article button:nth-child(2) {
+  font-size: 0.9rem;
+}
+
+.header-article h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5rem;
+}
+
+.header-article p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+/* ***CaraoselArticle*** */
+
+.caraosel-article h1 {
+  text-transform: uppercase;
+  font-size: 7.54vw;
+}
+
+.caraosel-article p {
+  font-size: 0.7rem;
+}
+
+/* ***ProductsArticle*** */
+.products-article h1 {
+  font-weight: 300;
+  font-size: 2.1rem;
+}
+
+.products-article .card {
+  width: 100%;
+}
+
+/* ***ContactArticle*** */
+.contact-article form {
+  width: 90%;
+}
+
+.contact-article form h1 {
+  font-size: 5vw;
+  font-weight: 600;
+}
+
+.contact-article form button {
+  font-size: 0.8rem;
+  padding: 0.6rem 1.4rem;
+}
+
+/* `md` applies to small devices (Tablet)*/
+@media (min-width: 600px) {
+  main {
+    padding-top: 10rem;
+  }
+
+  /* ***HeaderArticle*** */
+  .header-article {
+    width: 90%;
+    height: 55vh;
+  }
+
+  .header-article h1 {
+    font-size: 4.5rem;
+  }
+
+  .header-article p {
+    font-size: 1.2rem;
+  }
+
+  /* ***CaraoselArticle*** */
+  .caraosel-article h1 {
+    font-size: 8.15vw;
+  }
+
+  .caraosel-article p {
+    font-size: 0.9rem;
+  }
+
+  /* ***ProductsArticle*** */
+  .products-article h1 {
+    width: 50%;
+    font-size: 3rem;
+  }
+
+  .products-article .card {
+    width: 47.5%;
+  }
+
+  /* ***ContactArticle*** */
+  .contact-article form {
+    width: 70%;
+  }
+
+  .contact-article form h1 {
+    font-size: 4.3vw;
+  }
+}
+
+/* `lg` applies to medium devices (Laptop) */
+@media (min-width: 991.98px) {
+  main {
+    padding-top: 6rem;
+  }
+
+  /* ***HeaderArticle*** */
+  .header-article {
+    height: 70vh;
+  }
+
+  .header-article h1 {
+    font-size: 5.5rem;
+  }
+
+  /* ***ProductsArticle*** */
+  .products-article h1 {
+    width: 40%;
+    font-size: 3rem;
+  }
+
+  .products-article .card {
+    width: 31.5%;
+  }
+
+  /* ***ContactArticle*** */
+  .contact-article form {
+    width: 60%;
+  }
+
+  .contact-article form h1 {
+    font-size: 3rem;
+    font-size: 4.3vw;
+  }
+
+  .contact-article form button {
+    font-size: 0.8rem;
+    padding: 0.6rem 1.4rem;
+  }
+}
+
+/* `xl` applies to large devices (desktops) */
+@media (min-width: 1199.98px) {
+  /* ***HeaderArticle*** */
+  main {
+    padding-top: 10rem;
+  }
+
+  /* ***HeaderArticle*** */
+  .header-article {
+    width: 65%;
+    height: 65vh;
+  }
+
+  .header-article h1 {
+    font-size: 5.5vw;
+  }
+
+  /* ***ProductsArticle*** */
+  .products-article .card {
+    width: 23.5%;
+  }
+
+  /* ***ContactArticle*** */
+  .contact-article form {
+    width: 30%;
+  }
+
+  .contact-article form h1 {
+    font-size: 2vw;
+  }
+}
+
+/* // applies to x-large devices (large desktops) */
+@media (min-width: 1399.98px) {
+  main {
+    padding-top: 18rem;
+  }
+}
